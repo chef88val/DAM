@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="cowapps.js_cmd.linearlayout.MainActivity"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#841f1f"
+        android:dividerPadding="5px"
+        android:background="#0cafa2"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="0dp"
+        android:padding="5dp">
+
+        <TextView
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rojo"
+            android:id="@+id/btnRojo"
+            android:layout_weight="1"
+            android:background="#ff0000"
+            android:layout_margin="5dp" />
+
+        <TextView
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Azul"
+            android:id="@+id/btnAzul"
+            android:singleLine="true"
+            android:layout_weight="1"
+            android:background="#0000ff"
+            android:layout_margin="5dp" />
+
+        <TextView
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Verde"
+            android:id="@+id/btnVerde"
+            android:layout_weight="1"
+            android:background="#00ff00"
+            android:layout_margin="5dp" />
+
+        <TextView
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amarillo"
+            android:id="@+id/btnAmarillo"
+            android:layout_weight="1"
+            android:background="#ffee00"
+            android:layout_margin="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#eb840f"
+        android:layout_marginTop="120dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="columna_uno"
+            android:id="@+id/columna_uno"
+            android:background="#541d55"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="columna_dos"
+            android:id="@+id/columna_dos"
+            android:background="#541d55"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="columna_tres"
+            android:id="@+id/columna_tres"
+            android:background="#541d55"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="columna_cuatro"
+            android:id="@+id/columna_cuatro"
+            android:background="#541d55"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

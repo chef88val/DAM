@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Activity_views</string>
+    <string name="esto_es_un_texto">Esto es un texto que cambia</string>
+</resources>
