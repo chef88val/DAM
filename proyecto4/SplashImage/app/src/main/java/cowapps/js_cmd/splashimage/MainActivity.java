@@ -4,25 +4,26 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
 
-/*MenuFragment.MenuFragmentListener*/
 public class MainActivity extends AppCompatActivity implements MenuFragment.MenuFragmentListener{
 
+    //Declaramos los objetos de los nuevos Fragment que se van a mostrar. Tantos como fragment utiliza nuestra APP
     InformacionFragment informacionFragment = new InformacionFragment();
     InstruccionesFragment instruccionesFragment = new InstruccionesFragment();
     GameFragment gameFragment = new GameFragment();
     PerfilFragment perfilFragment = new PerfilFragment();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Bundle bundle = getIntent().getExtras();
-
+        //Añadimos el fragment de información al arrancar la app, despues de la SplashScrenn
         getSupportFragmentManager().beginTransaction().add(R.id.contenido,informacionFragment).commit();
 
 
     }
 
 
+    //Método que implementará las acciones sobre nuestros botones
     public void onListSelected(int position, String item){
         switch (position) {
             case 0:

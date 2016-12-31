@@ -35,8 +35,9 @@ public class MenuFragment extends Fragment {
     private String mParam2;
 
     //private OnFragmentInteractionListener mListener;
-    private customListener mListener;
 
+    //Declaramos el Fragment y su listener
+    private customListener mListener;
     MenuFragmentListener mCallback;
 
     public MenuFragment() {
@@ -153,12 +154,13 @@ public class MenuFragment extends Fragment {
         public void onListSelected(int position, String item);
     }
 
+    //Implementamos nuestro listener personalizado
     private class customListener implements AdapterView.OnItemClickListener{
 
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
             String item= (String) parent.getItemAtPosition(position);
-            mCallback.onListSelected(position,item);
+            mCallback.onListSelected(position,item);//->Pasamos la información a nuestra activity
         }
     }
 }
