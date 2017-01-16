@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements MenuFragment.Menu
         switch (position) {
             case 0://Opcion perfil
                 getSupportFragmentManager().beginTransaction().replace(R.id.contenido,perfilFragment)
-                        .addToBackStack(null).commit();
+                        /*.addToBackStack(null)*/.commit();
                 Toast.makeText(this,item,Toast.LENGTH_SHORT).show();//Muestro por pantalla el nombre del item
                 break;
             case 1://Opcion juego
@@ -48,22 +48,22 @@ public class MainActivity extends AppCompatActivity implements MenuFragment.Menu
                 args.putString(GameFragment.ARG_PUNTOS,String.valueOf(player.getPuntos()));
                 gameFragment.setArguments(args);
                 getSupportFragmentManager().beginTransaction().replace(R.id.contenido,gameFragment)
-                        .addToBackStack(null).commit();
+                        /*.addToBackStack(null)*/.commit();
                 Toast.makeText(this,item,Toast.LENGTH_SHORT).show();//Muestro por pantalla el nombre del item
                 break;
             case 2://Opcion instrucciones
                 getSupportFragmentManager().beginTransaction().replace(R.id.contenido,instruccionesFragment)
-                        .addToBackStack(null).commit();
+                        /*.addToBackStack(null)*/.commit();
                 Toast.makeText(this,item,Toast.LENGTH_SHORT).show();//Muestro por pantalla el nombre del item
                 break;
             case 3://Opcion informacion
                 getSupportFragmentManager().beginTransaction().replace(R.id.contenido,informacionFragment)
-                        .addToBackStack(null).commit();
+                        /*.addToBackStack(null)*/.commit();
                 Toast.makeText(this,item,Toast.LENGTH_SHORT).show();//Muestro por pantalla el nombre del item
                 break;
             default: //Default
                 getSupportFragmentManager().beginTransaction().replace(R.id.contenido,informacionFragment)
-                    .addToBackStack(null).commit();
+                    /*.addToBackStack(null)*/.commit();
                 Toast.makeText(this,item,Toast.LENGTH_SHORT).show();//Muestro por pantalla el nombre del item
                 break;
         }
@@ -81,8 +81,7 @@ public class MainActivity extends AppCompatActivity implements MenuFragment.Menu
         //Mostramos por pantalla los valores recogidos por la actividad
         Toast.makeText(this,"Hola "+player.getNick()+", edad: "+player.getEdad(),Toast.LENGTH_SHORT).show();
 
-       // getSupportFragmentManager().beginTransaction().replace(R.id.contenido,gameFragment)
-             //   .addToBackStack(null).commit();
+       
         //Mostramos el Fragment de juego
         onListSelected(0,"");
 
