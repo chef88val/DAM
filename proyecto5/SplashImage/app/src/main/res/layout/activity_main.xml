@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="horizontal"
+    tools:context="cowapps.js_cmd.splashimage.MainActivity"
+    android:padding="0dp">
+
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_blank_frag"
+            android:name="cowapps.js_cmd.splashimage.MenuFragment"
+            android:id="@+id/list_fragment"
+            android:layout_weight="3"
+             />
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight="1"
+            android:id="@+id/contenido"></FrameLayout>
+        <!--<ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/imagen1"
+            android:id="@+id/Imagenmenu"
+            android:layout_weight="1"
+            android:layout_gravity="top" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="232dp"
+            android:id="@+id/lv"
+            android:layout_gravity="bottom" />-->
+
+
+</LinearLayout>
