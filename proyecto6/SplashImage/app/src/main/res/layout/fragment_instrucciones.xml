@@ -1,0 +1,93 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cowapps.js_cmd.splashimage.InstruccionesFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="fill_vertical|center_horizontal"
+        android:textSize="50sp"
+        android:id="@+id/textView12" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:gravity="fill_vertical|center_horizontal"
+            android:textSize="15sp"
+            android:text="1. Hacer click en Perfil"
+            android:textAlignment="viewStart"
+            android:textColor="@color/cast_expanded_controller_text_color"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:gravity="fill_vertical|center_horizontal"
+            android:textSize="15sp"
+            android:text="2. Rellenar nick y años"
+            android:id="@+id/textView11"
+            android:textAlignment="viewStart"
+            android:textColor="@color/cast_expanded_controller_text_color"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:gravity="fill_vertical|center_horizontal"
+            android:textSize="15sp"
+            android:text="3. Hacerse una foto pinchando sobre la foto que hay encima del menú"
+            android:textAlignment="viewStart"
+            android:textColor="@color/cast_expanded_controller_text_color"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView13" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:gravity="fill_vertical|center_horizontal"
+            android:textSize="15sp"
+            android:text="4. Hacer click sobre Juego"
+            android:id="@+id/textView14"
+            android:textAlignment="viewStart"
+            android:textColor="@color/cast_expanded_controller_text_color"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:gravity="fill_vertical|center_horizontal"
+            android:textSize="15sp"
+            android:text="5. Utilizar los dados y las operaciones"
+            android:textAlignment="viewStart"
+            android:textColor="@color/cast_expanded_controller_text_color"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView15" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:gravity="fill_vertical|center_horizontal"
+            android:textSize="15sp"
+            android:text="Nota: @string/acceptiene que dar el numero que hay entre el + y el -"
+            android:id="@+id/textView16"
+            android:textAlignment="viewStart"
+            android:textColor="@color/cast_expanded_controller_text_color"
+            android:layout_marginTop="20dp" />
+    </LinearLayout>
+
+</FrameLayout>

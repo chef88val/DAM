@@ -1,0 +1,91 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cowapps.js_cmd.splashimage.InformacionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="fill_vertical|center_horizontal"
+        android:textSize="50sp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <TextView
+            android:text="Math Dice v1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"
+            android:textSize="15sp"
+            android:textColor="@color/cast_libraries_material_featurehighlight_text_header_color"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.05" />
+
+        <TextView
+            android:text=" Javier Segarra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"
+            android:textSize="15sp"
+            android:textColor="@color/cast_libraries_material_featurehighlight_text_header_color"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:text="2ºDAM-SEMI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"
+            android:textSize="15sp"
+            android:textColor="@color/cast_libraries_material_featurehighlight_text_header_color"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:text="laFlorida 2016/17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"
+            android:textSize="15sp"
+            android:textColor="@color/cast_libraries_material_featurehighlight_text_header_color"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:text="Desarrollo de aplicaciones moviles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView9"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"
+            android:textSize="15sp"
+            android:textColor="@color/cast_libraries_material_featurehighlight_text_header_color"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.04" />
+
+        <TextView
+            android:text="Proyecto Final"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView10"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"
+            android:textSize="15sp"
+            android:textColor="@color/cast_libraries_material_featurehighlight_text_header_color"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.05" />
+    </LinearLayout>
+
+</FrameLayout>

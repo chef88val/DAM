@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cowapps.js_cmd.splashimage.SplashActivity">
+
+    <ProgressBar
+        style="@android:style/Widget.ProgressBar.Large.Inverse"
+        android:id="@+id/progressBar"
+        android:layout_gravity="center"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:progressBackgroundTint="@color/cast_intro_overlay_button_background_color"
+        android:indeterminate="false"
+        android:layout_width="200dp" />
+
+    <ImageView
+        android:layout_width="154dp"
+        android:layout_height="136dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/dado"
+        android:padding="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="122dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="14dp" />
+
+    <ImageView
+        android:layout_width="154dp"
+        android:layout_height="136dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/dado"
+        android:padding="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginStart="11dp"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="MATH DICE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="@dimen/cast_intro_overlay_button_margin_bottom"
+        android:textStyle="normal|bold"
+        android:textDirection="locale"
+        android:textColorLink="?android:attr/colorMultiSelectHighlight"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textAlignment="center" />
+
+
+</RelativeLayout>

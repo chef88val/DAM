@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SplashImage</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="perfil_fragment">PERFIL</string>
+    <string name="instrucciones_fragment">INSTRUCCIONES</string>
+    <string name="informacion_fragment">INFORMACION</string>
+    <string name="game_fragment">JUEGO</string>
+</resources>
